@@ -1,0 +1,76 @@
+.box1 {
+    width: 80vw;
+    height: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    border-radius: 12px;
+    background-color: rgb(243, 230, 252);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px rgba(0,0,0,0.19);
+}
+
+.box2 {
+    width: 80vw;
+    height: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    border-radius: 12px;
+    background-color: rgb(243, 230, 252);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px rgba(0,0,0,0.19);
+}
+
+.img1 {
+    width: 30vw;
+}
+
+.clip1 {
+    width: 20vw;
+    clip-path: circle(30% at 50% 50%);
+    /*circle(ratio at x-axis y axis)*/
+}
+
+.clip2 {
+    width: 20vw;
+    clip-path: polygon(0 0, 
+                       100% 0,
+                       100% 75%, 
+                       75% 75%, 
+                       75% 100%, 
+                       50% 75%, 
+                       0% 75%);
+    /*polygon(x-axis y-axis)*/
+}
+
+.clip3 {
+    width: 20vw;
+    clip-path: polygon(20% 0%,
+                       0% 20%,
+                       30% 50%,
+                       0% 80%,
+                       20% 100%,
+                       50% 70%,
+                       80% 100%,
+                       /*mirror*/
+                       100% 80%,
+                       70% 50%,
+                       100% 20%,
+                       80% 0%,
+                       50% 30%,
+                       20% 0%,
+                       0% 20%);
+}
