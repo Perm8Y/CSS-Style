@@ -1,0 +1,49 @@
+.box1 {
+    width: 80vw;
+    height: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    border-radius: 12px;
+    background-color: rgb(243, 230, 252);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px rgba(0,0,0,0.19);
+}
+
+.shadow {
+    position: relative;
+    display: inline-block;
+    font-size: 6rem;
+    font-family: cursive;
+    text-transform: uppercase;
+
+    color: #67c285;
+    text-shadow: 3px 3px 0px rgb(243, 230, 252),
+                 8px 8px 0px rgba(37, 94, 42, 0.247);
+}
+
+.t3d {
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: #f2395a;
+    
+    transform: skew(-5deg, -5deg) rotate(5deg);
+    transform-origin: center center;
+
+    text-shadow: 1px 1px #d10e31,
+                 2px 2px #d10e31,
+                 3px 3px #d10e31,
+                 4px 4px #d10e31,
+                 5px 5px #d10e31,
+                 6px 6px #d10e31,
+                 7px 7px #d10e31,
+                 8px 8px #890920,
+                 9px 9px #890920,
+                 10px 10px #890920,
+                 11px 11px 10px black;
+}
